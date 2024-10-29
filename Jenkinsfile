@@ -1,5 +1,5 @@
 pipeline {
-   agent any
+   agent agent1
    environment {
       AWS_REGION = 'us-east-1'
       ECR_REPOSITORY = '704529858158.dkr.ecr.us-east-1.amazonaws.com/code2cloud-ecr'
